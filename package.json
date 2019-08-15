@@ -113,11 +113,6 @@
       "path": "./es/index.js"
     }
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged && npm run test:source"
-    }
-  },
   "lint-staged": {
     "*.{js,jsx}": [
       "npm run test:bundles:snapshot:update",

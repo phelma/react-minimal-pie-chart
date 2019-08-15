@@ -3,9 +3,6 @@
 *.db
 *.log
 node_modules
-es
-lib
-dist
 coverage
 storybook-static
 
